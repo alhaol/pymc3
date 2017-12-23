@@ -1,0 +1,99 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%Version for spanish users, by dgarhdez
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+\firstname{Ibrahim} % Your first name
+\familyname{AbuAlhaol, Ph.D., P.Eng.} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+
+\address{\textbf{Larus Technologies/Carleton University}}{\textbf{Ottawa, ON, Canada}}{}
+\mobile{(\textbf{613) 216-9474}}
+%\phone{(613) 216 9474}
+%\fax{(000) 111 1113}
+\email{ibrahimee@ieee.org}
+\homepage{alhaol.com} % T        % optional, remove / comment the line if not wanted
+%\extrainfo{Permanent resident in Canada.}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Faculty of Applied Science and Engineering}{University of Toronto,  Toronto, Canada}
+\date{\today}
+%\opening{Dear Members of the Search Committee:}
+\closing{I look forward to hearing from you.}
+%\enclosure[]{CV}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+\hspace{0.5cm} I am writing to apply for the Data Scientist position at Akamai, Ottawa, Canada. I hold a B.Sc., an M.Sc., and a Ph.D. in Electrical and Computer Engineering. I also hold M.Eng. in Technology Innovation Management. I am a Senior member of IEEE and a Professional Engineer (P.Eng.) in Ontario, Canada.  
+
+\vspace{10pt}
+
+\hspace{0.5cm} I am a Research Scientist at Larus Technologies and an Adjunct Research Professor at Carleton University, Ottawa, Canada.  I have a broad knowledge and hands-on experience in machine learning modeling and real-time Big Data Analytics tools and applications. My research interests include machine learning and Big Data Analytics and its application in 
+
+\vspace{5pt}
+\cvitem{}{
+	\begin{itemize}
+		\item Wireless Communication Networks.
+		\item Maritime Internet-of-Things.
+		\item Wireless Cybersecurity.	
+	\end{itemize}
+}
+
+
+\hspace{0.5cm}  I have three years of research and industry experience in Wireless Cybersecurity in Canada at Carleton University and at VENUS Cybersecurity Corporation. I have seven years of research and industry experience in Wireless Communication Systems in 
+
+\vspace{5pt}
+\cvitem{}{
+	\begin{itemize}
+		\item United States: Qualcomm Incorporation and Broadcom Corporation.
+		\item Canada: Carleton University.
+		\item United Arab Emirates: Khalifa University of Science and Technology.
+	\end{itemize}
+}
+
+
+
+
+\makeletterclosing
+
+\end{document}
+
+
